@@ -1,0 +1,15 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'Prgx.Neos.StringsEditor':
+            resource: 'resource://Prgfx.Neos.StringsEditor/Public/Plugin/Plugin.js'
+        stylesheets:
+          'Prgx.Neos.StringsEditor':
+            resource: 'resource://Prgfx.Neos.StringsEditor/Public/Plugin/Plugin.css'
+    userInterface:
+      inspector:
+        dataTypes:
+          array<string>:
+            editor: Prgfx.Neos.StringsEditor

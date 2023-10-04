@@ -1,0 +1,21 @@
+.inputWrapper {
+    display: flex;
+}
+
+.inputWrapper > div {
+    flex-grow: 1;
+}
+
+.list {
+    margin-bottom: 0;
+}
+
+.input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.submitButton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

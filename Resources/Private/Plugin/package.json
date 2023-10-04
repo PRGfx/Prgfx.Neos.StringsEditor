@@ -1,0 +1,28 @@
+{
+    "name": "@prgfx/neos-stringseditor",
+    "private": true,
+    "scripts": {
+        "build": "node build.mjs",
+        "watch": "node build.mjs --watch",
+        "lint": "eslint src/"
+    },
+    "devDependencies": {
+        "@neos-project/neos-ui-extensibility": "~8.3.0",
+        "@neos-project/react-ui-components": "~8.3.0",
+        "@types/react": "^17.0.6",
+        "@typescript-eslint/eslint-plugin": "^6.7.2",
+        "@typescript-eslint/parser": "^6.7.2",
+        "esbuild": "~0.17.18",
+        "esbuild-plugin-eslint": "^0.3.6",
+        "esbuild-plugin-lightningcss-modules": "^0.1.0",
+        "eslint": "^8.50.0",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "typescript": "^5.2.2"
+    },
+    "peerDependencies": {
+        "classnames": "^2.3.1",
+        "react": "^17.0.2",
+        "react-redux": "^7.2.4"
+    }
+}

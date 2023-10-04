@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "DOM",
+            "ES2022"
+        ],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react"
+    }
+}

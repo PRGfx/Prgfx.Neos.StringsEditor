@@ -1,0 +1,14 @@
+{
+    "name": "prgfx/neos-stringseditor",
+    "keywords": ["neoscms", "neos", "inspector", "array"],
+    "description": "Neos CMS string-array editor",
+    "type": "neos-package",
+    "extra": {
+        "neos": {
+            "package-key": "Prgfx.Neos.StringsEditor"
+        }
+    },
+    "require": {
+        "neos/neos-ui": "^8"
+    }
+}
