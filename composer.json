@@ -9,6 +9,6 @@
         }
     },
     "require": {
-        "neos/neos-ui": "^8"
+        "neos/neos-ui": "^8 || ^9"
     }
 }
